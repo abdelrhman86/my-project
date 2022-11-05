@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
 }
 header {
-    background-color: #f0f0f0;
+    background-color: #f0f0f081;
     width:100% ;
     position: fixed;
     z-index: 999;
@@ -39,7 +39,7 @@ section{
 
 }
 .main{
-    background: url(image/abdo.jpg) no-repeat;
+    background: url(abdo.jpg) no-repeat;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -237,7 +237,7 @@ section{
     color: white;
 }
 
-@media(max-width:1023){
+@media(max-width: 1023px){
     header{
         padding: 12px 20px;
     }
@@ -264,7 +264,7 @@ section{
     }
 }
 
-@media (max-width:614){
+@media (max-width: 614px){
     body{
         font-size: 12px;
     }
@@ -278,7 +278,7 @@ section{
     }
 }
 
-@media (max-width:300){
+@media (max-width: 300px) {
     body {
         font-size:10px ;
     }
